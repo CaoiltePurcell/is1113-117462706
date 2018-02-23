@@ -1,0 +1,15 @@
+mainheading{
+    text-align: center;
+}
+
+head{
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    text-align: center;
+    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB0A3ElWxecNYPZvMbbf_TOltUB7eapDWzK9t0L5cI4DETO9phhw");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

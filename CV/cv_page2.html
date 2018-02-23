@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <!--Adding the Background, Table & Navigation bar layout-->
+        <style>
+          table, th, td {
+          border: 1px solid black;
+          }
+           
+          ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+          }
+
+          li {
+          float: left;
+          }
+
+          li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          }
+
+          li a:hover {
+          background-color: #111;
+          }
+          body{
+          text-align: center;
+          background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB0A3ElWxecNYPZvMbbf_TOltUB7eapDWzK9t0L5cI4DETO9phhw");
+          background-repeat: no-repeat;
+          background-size: cover;
+          }
+        </style>
+
+        <!--Adding Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+        <!--Adding page title-->
+        <title>Education</title>
+        <link rel="stylesheet" href="mystylesheet.css" type="text/css" />
+    </head>
+        
+    <body>
+         <!--Populating the Navigation bar with functional buttons-->  
+        <ul>
+          <li><a href="Homepage.html">Homepage</a></li>
+          <li><a class="active" href="CV/cv_page1.html">Curriculum Vitae</a></li>
+          <li><a href="Interests/Sport.html">Interests</a></li>
+          <li><a href="EBusiness/E_Business1.php">E-Business</a></li>
+          <li><a href="is1113117462706.herokuapp.com">Heroku</a></li>
+          <li> <a href="https://github.com/CaoiltePurcell/is1113117462706/graphs/commit-activity">GitHub</a></li>
+          </ul>
+          
+          <!--Populating CV details-->
+          <h1 class="mainheading">Educational Details</h1>
+        
+          <p><strong>Secondary School: &nbsp&nbsp</strong><ins>Intermediate School Killorglin (ISK)</ins></p>
+          <p><strong>Year:</strong> 2011-2017 </p>
+          <p><strong>Grades:</strong>
+            
+            <!--Creating Table for "Grades"-->
+          <table style="width:100%">
+            <tr>
+              &nbsp&nbsp&nbsp&nbsp&nbsp<th>Subject</th>
+              <th>Level</th> 
+              <th>Grade</th>
+            </tr>
+            <tr>
+              &nbsp&nbsp&nbsp&nbsp&nbsp<td>English</td>
+              <td>Higher</td>
+              <td><strong>H2</strong></td>
+            </tr>
+            <tr>
+              &nbsp&nbsp&nbsp&nbsp&nbsp<td>Maths</td>
+              <td>Ordinary</td>
+              <td><strong>O2</strong></td>
+            </tr>
+            <tr>
+              &nbsp&nbsp&nbsp&nbsp&nbsp<td>Business</td>
+              <td>Higher</td>
+              <td><strong>H2</strong></td>
+            </tr>
+            <tr>
+              &nbsp&nbsp&nbsp&nbsp&nbsp<td>Geography</td>
+              <td>Higher</td>
+              <td><strong>H2</strong></td>
+            </tr>
+            <tr>
+              &nbsp&nbsp&nbsp&nbsp&nbsp<td>Biology</td>
+              <td>Higher</td>
+              <td><strong>H2</strong></td>
+            </tr>
+            <tr>
+              &nbsp&nbsp&nbsp&nbsp&nbsp<td>Construction</td>
+              <td>Higher</td>
+              <td><strong>H2</strong></td>
+            </tr>
+            <tr>
+              &nbsp&nbsp&nbsp&nbsp&nbsp<td>Spanish</td>
+              <td>Ordinary</td>
+              <td><strong>O2</strong></td>
+            </tr>
+            <tr>
+              &nbsp&nbsp&nbsp&nbsp&nbsp<td>LCVP</td>
+              <td>Common</td>
+              <td><strong>Merit</strong></td>
+            </tr>
+          </table>
+          
+          <!--Populating Education-->
+          <p><strong>Total CAO Points:</strong> 487 points</p>
+          <br/>
+          
+          <!--Inserting Horizontal Rule to seperate College from Secondary School-->
+          <hr style="height:1.51px;border:none;color:black;background-color:black;" />
+          <br/>
+          
+          <p><strong>College: &nbsp&nbsp</strong><ins>University College Cork (UCC)</ins></p>
+          <p><strong>Course:</strong> Business Information Systems </p>
+          <p><strong>Year:</strong> 2017-2021 </p>
+        
+        <!--Creating the "NEXT" button-->
+          <a href="cv_page3.html" class="btn btn-dark">Next</a>
+       
+        </body>
+</html>
