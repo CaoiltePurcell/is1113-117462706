@@ -58,28 +58,28 @@
             <form method="POST" action = "Ebus2.php">
             <div>
                 <label for="SalesForce">
-                    <input type="radio" id="SalesForce" nme="product" checked onClick="disablebtnProceed()"/>
+                    <input type="radio" id="SalesForce" name="product" checked onClick="disablebtnProceed()"/>
                     Salesforce @ $100
                 </label>
                 
                 <br/>
                 
                 <label for="Cloud9">
-                    <input type="radio" id="Cloud9" nme="product"  onClick="disablebtnProceed()"/>
+                    <input type="radio" id="Cloud9" name="product"  onClick="disablebtnProceed()"/>
                     Cloud 9 @ $200
                 </label>
                     
                 <br/>
                     
                 <label for="AWS">
-                    <input type="radio" id="AWS" name+"product" onClick+"disablebtnProceed()"?>
+                    <input type="radio" id="AWS" name="product" onClick+"disablebtnProceed()"?>
                     AWS @ $300
                 </label>
                 
                 <br/>
                 
                 <label for="Gmail">
-                    <input type="radio" id="Gmail" nme="product"  onClick="disablebtnProceed()"/>
+                    <input type="radio" id="Gmail" name="product"  onClick="disablebtnProceed()"/>
                     Gmail @ $400
                 </label>
                 </div>
