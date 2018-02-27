@@ -43,9 +43,9 @@
         <!--Populating the Navigation bar with functional buttons--> 
         <ul>
         <li><a href="Homepage.html">Homepage</a></li>
-        <li><a class="active" href="CV/cv_page1.html">Curriculum Vitae</a></li>
+        <li><a href="CV/cv_page1.html">Curriculum Vitae</a></li>
         <li><a href="Interests/Sport.html">Interests</a></li>
-        <li><a href="EBusiness/E_Business1.php">E-Business</a></li>
+        <li><a class="active" href="EBusiness/E_Business1.php">E-Business</a></li>
         <li><a href="is1113117462706.herokuapp.com">Heroku</a></li>
         <li> <a href="https://github.com/CaoiltePurcell/is1113117462706/graphs/commit-activity">GitHub</a></li>
         </ul>
