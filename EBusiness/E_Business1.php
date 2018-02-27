@@ -56,7 +56,7 @@
             <br/>
             
             <form method="POST" action = "Ebus2.php">
-            
+            <div>
                 <label for="SalesForce">
                     <input type="radio" id="SalesForce" nme="product" checked onClick="disablebtnProceed()"/>
                     Salesforce @ $100
@@ -82,6 +82,7 @@
                     <input type="radio" id="Gmail" nme="product"  onClick="disablebtnProceed()"/>
                     Gmail @ $400
                 </label>
+                </div>
                 
                 <br/>
                 <br/>
