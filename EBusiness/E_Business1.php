@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Select Product</title>
+<head>
+    <title>Select Product</title>
         
-        <!--Adding the Navigation bar layout and Background-->
-        <style>
+    <!--Adding the Navigation bar layout and Background-->
+    <style>
             ul {
             list-style-type: none;
             margin: 0;
@@ -31,13 +31,13 @@
             background-repeat: no-repeat;
             background-size: cover;
             }
-        </style>
+    </style>
         
-        <!--jQuery-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript" src="cost_calc.js"></script>
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="cost_calc.js"></script>
         
-        </head>
+</head>
         
     <body>
         <!--Populating the Navigation bar with functional buttons--> 
@@ -57,29 +57,25 @@
             
             <form method="POST" action = "Ebus2.php">
             <div>
-                <label for="SalesForce">
-                    <input type="radio" id="SalesForce" name="product" checked onClick="disablebtnProceed()"/>
+                <label for="SalesForce"><input type="radio" id="SalesForce" name="product" checked/>
                     Salesforce @ $100
                 </label>
                 
                 <br/>
                 
-                <label for="Cloud9">
-                    <input type="radio" id="Cloud9" name="product"  onClick="disablebtnProceed()"/>
+                <label for="Cloud9"><input type="radio" id="Cloud9" name="product"/>
                     Cloud 9 @ $200
                 </label>
                     
                 <br/>
                     
-                <label for="AWS">
-                    <input type="radio" id="AWS" name="product" onClick+"disablebtnProceed()"?>
+                <label for="AWS"><input type="radio" id="AWS" name="product">
                     AWS @ $300
                 </label>
                 
                 <br/>
                 
-                <label for="Gmail">
-                    <input type="radio" id="Gmail" name="product"  onClick="disablebtnProceed()"/>
+                <label for="Gmail"><input type="radio" id="Gmail" name="product">
                     Gmail @ $400
                 </label>
                 </div>
