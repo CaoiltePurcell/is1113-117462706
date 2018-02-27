@@ -65,7 +65,7 @@
                 <br/>
                 
                 <label for="Cloud9">
-                    <input type="radio" id="Cloud9" nme="product" checked onClick="disablebtnProceed()"/>
+                    <input type="radio" id="Cloud9" nme="product"  onClick="disablebtnProceed()"/>
                     Cloud 9 @ $200
                 </label>
                     
@@ -79,7 +79,7 @@
                 <br/>
                 
                 <label for="Gmail">
-                    <input type="radio" id="Gmail" nme="product" checked onClick="disablebtnProceed()"/>
+                    <input type="radio" id="Gmail" nme="product"  onClick="disablebtnProceed()"/>
                     Gmail @ $400
                 </label>
                 
