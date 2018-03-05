@@ -42,6 +42,7 @@
     <head/>
     
     <body>
+        
         <!--Populating the Navigation bar with functional buttons--> 
         <ul>
         <li><a href="Homepage.html">Homepage</a></li>
@@ -116,7 +117,7 @@
           <br/>
             
           <!-- button for clearing the selected options -->    
-          <a class="clear_btn" role="button" href="Ebus1.php">Clear Choice</a>
+          <a class="clear_btn" role="button" href="E_Business1.php">Clear Choice</a>
         </div>
     </body>
 </html>
