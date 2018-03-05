@@ -55,7 +55,7 @@
           
           <h1>Select a Product</h1>
               
-          <br>
+          <br/>
               
           <form method="POST" action="Ebus2.php">
             
@@ -65,28 +65,28 @@
               SalesForce @ $100
             </label>
                 
-            <br>
+            <br/>
             
             <label for="cloud9" class="Cloud9">
               <input type="radio" id="cloud9" name="product" onClick="rbChecked()"/>
                Cloud9 @ $200
             </label>
                 
-            <br>
+            <br/>
                 
             <label for="aws" class="AWS">
               <input type="radio" id="aws" name="product" onClick="rbChecked()"/>
               AWS @ $300
             </label>
                 
-            <br>
+            <br/>
                 
             <label for="gmail" class="Gmail">
               <input type="radio" id="gmail" name="product" onClick="rbChecked()"/>
               Gmail @ $400
             </label>
             
-            
+            <br/>
             
             <!-- Breakdown of the price for the selected option -->
             <label for="subtotal" class="Subtotal">
@@ -95,14 +95,14 @@
             </label>
                 
                 
-            <br>
+            <br/>
                 
             <label for="total" class="Total">
               Total &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <input type="text" id="total" name="total" value="0.00" readonly/>
             </label>
       
-            <br>
+            <br/>
             
             <div class="add_btn">   
               <button class="add_btn_style" type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
@@ -113,7 +113,7 @@
           <!-- button for calculating price breakdown of the selected option -->    
           <button class="calculate_btn" onClick="calcSub()">Calculate Cost</button>
              
-          <br>
+          <br/>
             
           <!-- button for clearing the selected options -->    
           <a class="clear_btn" role="button" href="Ebus1.php">Clear Choice <i class="material-icons">delete</i></a>
