@@ -1,42 +1,65 @@
 <?php
 // Start the session
-session_start();
+session_start()
 ?>
-
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <title> Enter Details</title>
-        
+        <title>Details</title>
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="ebus2_validator.js"></script>
+        
     </head>
     
     <body>
         
-        <h4>Please enter your payment details</h4>
+        <!--Populating the Navigation bar with functional buttons--> 
+        <ul>
+        <li><a href="Homepage.html">Homepage</a></li>
+        <li><a class="active" href="CV/cv_page1.html">Curriculum Vitae</a></li>
+        <li><a href="/Interests/Sport.html">Interests</a></li>
+        <li><a href="EBusiness/E_Business1.php">E-Business</a></li>
+        <li><a href="is1113117462706.herokuapp.com">Heroku</a></li>
+        <li><a href="https://github.com/CaoiltePurcell/is1113117462706/graphs/commit-activity">GitHub</a></li>
+        </ul>
+                
         
+        <h4 class="ebus2_heading">Please enter your payment details</h4>
         
-            <form action="Ebus3.php" method="POST">
-
-                    <label for="user_pin">PIN</label>
-                    
-                    <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
-
-                <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
-              
-            </form>
+        <form action="Ebus3.php" method="POST">
             
+            <label for="user_name" class="name">
+                Name:
+                <input type="name" id="user_name" name="user_name" placeholder="Enter Your Name">
+            </label>
             <br/>
-            <button onClick="validateDetails()">Validate</button>
-            
-            <?php
-            // Set session variables
-            $_SESSION["total"] = $_POST["total"];
-            ?>
+            <label for="user_email" class="email">
+                Email address:
+                <input type="email" id="user_email" name="user_email" placeholder="example@gmail.com">
+            </label>
+            <br>
+            <label for="user_pin" class="pin">
+                PIN
+                <input type="pin" id="user_pin" name="user_pin" placeholder="Enter PIN" maxlength="4" pattern="\d{4}">
+                <br>
+                (Only numerical PIN's are valid)
+            </label>
+            <br>
+            <br>
+            <button class="btn_proceed" type="submit" id="btnPurchase" disabled>Proceed</button>
+        </form>
+        <br>
+        <button class="btn_validate" onClick="validateName()">Validate</button>
+    
+        <?php  
+        // Set session variables
+          $_SESSION["total"] = $_POST["total"];
+        ?>
         
     </body>
 </html>

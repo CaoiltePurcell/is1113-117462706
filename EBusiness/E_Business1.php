@@ -49,13 +49,14 @@
         <li><a href="is1113117462706.herokuapp.com">Heroku</a></li>
         <li> <a href="https://github.com/CaoiltePurcell/is1113117462706/graphs/commit-activity">GitHub</a></li>
         </ul>
+        
         <h1>Products:</h1>
         
             <h4>Select a product</h4>
             
             <br/>
             
-            <form method="POST" action = "Ebus2.php">
+            <form action = "E_Business2.php" method="POST">
             <div>
                 <label for="SalesForce"><input type="radio" id="SalesForce" name="product" checked/>
                     Salesforce @ $100
@@ -78,7 +79,7 @@
                 <label for="Gmail"><input type="radio" id="Gmail" name="product">
                     Gmail @ $400
                 </label>
-                </div>
+            </div>
                 
                 <br/>
                 <br/>
