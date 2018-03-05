@@ -1,4 +1,3 @@
-!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -87,6 +86,7 @@
             </label>
             
             <br/>
+            <br/>
             
             <!-- Breakdown of the price for the selected option -->
             <label for="subtotal" class="Subtotal">
@@ -116,7 +116,7 @@
           <br/>
             
           <!-- button for clearing the selected options -->    
-          <a class="clear_btn" role="button" href="Ebus1.php">Clear Choice <i class="material-icons">delete</i></a>
+          <a class="clear_btn" role="button" href="Ebus1.php">Clear Choice</a>
         </div>
     </body>
 </html>
