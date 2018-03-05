@@ -10,6 +10,36 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
         
+        <!--Adding the Navigation bar layout and Background-->
+        <style>
+            ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            }
+            li {
+            float: left;
+            }
+            li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+            li a:hover {
+            background-color: #111;
+            }
+            body{
+            text-align: center;
+            background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB0A3ElWxecNYPZvMbbf_TOltUB7eapDWzK9t0L5cI4DETO9phhw");
+            background-repeat: no-repeat;
+            background-size: cover;
+            }
+        </style>
+        
     <head/>
     
     <body>
