@@ -74,7 +74,7 @@ session_start()
             </label>
             <br>
             <label for="user_pin" class="pin">
-                PIN
+                PIN:
                 <input type="pin" id="user_pin" name="user_pin" placeholder="Enter PIN" maxlength="4" pattern="\d{4}">
                 <br>
                 (Only numerical PIN's are valid)
@@ -84,7 +84,7 @@ session_start()
             <button class="btn_proceed" type="submit" id="btnPurchase" disabled>Proceed</button>
         </form>
         <br>
-        <button class="btn_validate" onClick="validateName()">Validate</button>
+        <button class="btn_validate" onClick="validateDetails()">Validate</button>
     
         <?php  
         // Set session variables
