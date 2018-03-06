@@ -106,7 +106,7 @@
             <br/>
             
             <div class="add_btn">   
-              <button class="add_btn_style" type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+              <button href="E_Business2.php" class="add_btn_style" type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             </div>  
               
           </form>
