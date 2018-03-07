@@ -99,14 +99,14 @@
             <br/>
             
              <label for="discount" class="Discount">
-                Discount @ 5% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Discount @ 5% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <input  type="text" id="discount" value="0.00" readonly>
               </label>
               
               <br/>
               
               <label class="label" for="vat">
-                VAT @ 10% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                VAT @ 10% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <input  type="text" id="vat" value="0.00" readonly>
               </label>
                 
