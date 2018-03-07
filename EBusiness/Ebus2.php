@@ -65,17 +65,17 @@ session_start()
             
             <label for="user_name" class="name">
                 Name:
-                <input type="name" id="user_name" name="user_name" placeholder="Enter Your Name">
+                <input type="name" id="user_name" name="name" placeholder="Enter Your Name">
             </label>
             <br/>
             <label for="user_email" class="email">
                 Email address:
-                <input type="email" id="user_email" name="user_email" placeholder="example@gmail.com">
+                <input type="email" id="user_email" name="email" placeholder="example@gmail.com">
             </label>
             <br>
             <label for="user_pin" class="pin">
                 PIN:
-                <input type="pin" id="user_pin" name="user_pin" placeholder="Enter PIN" maxlength="4" pattern="\d{4}">
+                <input type="pin" id="user_pin" name="pin" placeholder="Enter PIN" maxlength="4" pattern="\d{4}">
                 <br>
                 (Only numerical PIN's are valid)
             </label>

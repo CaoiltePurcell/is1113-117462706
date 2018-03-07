@@ -97,7 +97,21 @@
                 
                 
             <br/>
+            
+             <label for="discount" class="Discount">
+                Discount @ 5% 
+                <input  type="text" id="discount" value="0.00" readonly>
+              </label>
+              
+              <br/>
+              
+              <label class="label" for="vat">
+                VAT @ 10%
+                <input  type="text" id="vat" value="0.00" readonly>
+              </label>
                 
+              <br/>
+              
             <label for="total" class="Total">
               Total &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <input type="text" id="total" name="total" value="0.00" readonly/>
