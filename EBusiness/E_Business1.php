@@ -126,12 +126,12 @@
           </form>
             
           <!-- button for calculating price breakdown of the selected option -->    
-          <button class="calculate_btn" onClick="calcSub()">Calculate Cost</button>
+          <button class="calculate_btn btn dark" onClick="calcSub()">Calculate Cost</button>
              
           <br/>
             
           <!-- button for clearing the selected options -->    
-          <a class="clear_btn" role="button" href="E_Business1.php">Clear Choice</a>
+          <a class="clear_btn btn dark" role="button" href="E_Business1.php">Clear Choice</a>
         </div>
     </body>
 </html>
