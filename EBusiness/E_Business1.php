@@ -123,7 +123,7 @@
             <br/>
             
                
-              <button href="/EBusiness/E_Business2.php" class="add_btn_style" type="submit" id="Proceed">Add to Shopping Cart</button>
+              <button href="/EBusiness/E_Business2.php" class="add" type="submit" id="Proceed" disabled>Add to Shopping Cart</button>
               
               
           </form>
