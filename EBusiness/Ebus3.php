@@ -57,10 +57,21 @@ session_start();
             <?php  
             // Set session variables
               $name = $_POST["name"];
-              $email = $_POST["email"];
-              $total = $_POST["total"];
               
-              echo ("Thank you for your purchase" . $name . ".")
+              echo ("Thank you for your purchase " . $name . ".")
+               ?>
+              <br/>
+               <?php  
+            // Set session variables
+              $email = $_POST["email"];
+              ("The email address that you have provided is " . $email . ".")
+               ?>
+              <br/>
+               <?php  
+            // Set session variables
+              $total = $_POST["total"];
+              ("Your total today is $" . $total . ".")
+               ?>
               
               
               
