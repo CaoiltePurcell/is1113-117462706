@@ -74,7 +74,7 @@ session_start();
             
             <p><?php echo("Your total today is $" . $total . ".") ?></p>
             
-            <h3 class="ebus3_heading2">Thanks for shopping with us</h3>
+            <h3 class="ebus3_heading2">Thanks for shopping with us, have a good day!</h3>
 
          <!--Creating a "Return Home" button-->
         <a href="/Homepage.html" class="btn btn-dark">Return to Homepage</a>
