@@ -87,8 +87,8 @@ session_start()
             <button class="btn_proceed" type="submit" id="btnPurchase" onClick="validateDetails()">Proceed</button>
             <br/>
         </form>
-        <button class"btn_Undo" type="sunmit" id=btnUndo href="/EBusiness/E_Business1.php">Back to Products</button>
-        <br>
+        
+    
         
     
         <?php  
