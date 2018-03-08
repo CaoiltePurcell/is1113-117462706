@@ -119,6 +119,13 @@
               Total &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <input type="text" id="total" name="total" value="0.00" readonly/>
             </label>
+            
+            <br/>
+            
+            <!--button for adding to shopping cart-->
+          <button href="/EBusiness/Ebus2.php" class="add" type="submit" id="Proceed">Add to Shopping Cart</button>
+             
+          <br/>
       
           </form>
             
@@ -127,11 +134,6 @@
           
           <br/>
           <br/>
-          <br/>
-          
-          <!--button for adding to shopping cart-->
-          <button href="/EBusiness/Ebus2.php" class="add" type="submit" id="Proceed">Add to Shopping Cart</button>
-             
           <br/>
             
           <!-- button for clearing the selected options -->    
