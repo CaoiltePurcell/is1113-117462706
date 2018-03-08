@@ -65,12 +65,12 @@ session_start()
             
             <label for="user_name" class="name">
                 Name:
-                <input type="name" id="user_name" name="name" placeholder="Enter Your Name">
+                <input type="name" id="name" name="name" placeholder="Enter Your Name">
             </label>
             <br/>
             <label for="user_email" class="email">
                 Email address:
-                <input type="email" id="user_email" name="email" placeholder="example@gmail.com">
+                <input type="email" id="email" name="email" placeholder="example@gmail.com">
             </label>
             <br>
             <label for="user_pin" class="pin">

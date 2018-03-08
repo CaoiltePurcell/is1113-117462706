@@ -48,20 +48,32 @@ session_start();
         <li><a href="https://github.com/CaoiltePurcell/is1113117462706/graphs/commit-activity">GitHub</a></li>
         </ul>
         
-        <h4>RECEIPT</h4>
-        <br/>
-        <br/>
+        <h1>Receipt</h1>
         
-        <?php
-        echo "Thank you " . $_SESSION["user_name"] . ".";
-        ?>
-        
-        <br/>
-        
-        <?php
-        // Echo session variables that were set on previous page
-        echo "Total is " . $_SESSION["total"] . ".";
-        ?>
+        <!-- Creating the receipt -->
+        <div class="ebus_content">
+            
+            
+            <?php  
+            // Set session variables
+              $name = $_POST["name"];
+              $email = $_POST["email"];
+              $total = $_POST["total"];
+              
+              echo ("Thank you for your purchase" . $name . ".")
+              
+              
+              
+            ?>
+            
+            
+            
+
+            
+            
+            
+            <h3 class="ebus3_heading2">Thanks for shopping with us</h3>
+
         
     </body>
 </html>
