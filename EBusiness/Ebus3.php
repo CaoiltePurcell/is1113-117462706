@@ -74,6 +74,7 @@ session_start();
             
             <h3 class="ebus3_heading2">Thanks for shopping with us</h3>
 
-        
+         <!--Creating a "Return Home" button-->
+        <a href="/Homepage.html" class="btn btn-dark">Return to Homepage</a>
     </body>
 </html>
