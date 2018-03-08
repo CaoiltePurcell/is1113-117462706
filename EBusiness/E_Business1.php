@@ -122,14 +122,14 @@
       
             <br/>
             
-               
-              <button href="/EBusiness/E_Business2.php" class="add" type="submit" id="Proceed" disabled>Add to Shopping Cart</button>
-              
-              
           </form>
             
           <!-- button for calculating price breakdown of the selected option -->    
-          <button class="calculate_btn btn dark" onClick="calcSub()" onClick="{$('#btnProceed').prop('disabled', false);}">Calculate Cost</button>
+          <button class="calculate_btn btn dark" onClick="calcSub()">Calculate Cost</button>
+          
+          <br/>
+          <!--button for adding to shopping cart-->
+          <button href="/EBusiness/E_Business2.php" class="add" type="submit" id="Proceed" disabled>Add to Shopping Cart</button>
              
           <br/>
             
