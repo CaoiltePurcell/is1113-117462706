@@ -4,7 +4,7 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
-        <title>RECEIPT</title>
+        <title>Customer Receipt</title>
         
         <!--Adding the Navigation bar layout and Background-->
         <style>
@@ -55,31 +55,19 @@ session_start();
             
             
             <?php  
-            // Set session variables
+            
               $name = $_POST["name"];
-              
-              echo ("Thank you for your purchase " . $name . ".")
-               ?>
-              <br/>
-               <?php  
-            // Set session variables
               $email = $_POST["email"];
-              ("The email address that you have provided is " . $email . ".")
-               ?>
-              <br/>
-               <?php  
-            // Set session variables
               $total = $_POST["total"];
-              ("Your total today is $" . $total . ".")
-               ?>
-              
-              
-              
             ?>
             
+            <p><?php  echo ("Thank you for your purchase " . $name . "." ) ?></p>
+             
+            <br/><br/>
+             
+            <p><?php echo("The email address that you have provided is " . $email . ".") ?></p>
             
-            
-
+            <p><?php echo("Your total today is $" . $total . ".") ?></p>
             
             
             
