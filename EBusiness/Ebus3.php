@@ -4,7 +4,9 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
+        <!--Page Title-->
         <title>Customer Receipt</title>
+        <link rel="stylesheet" href="mystylesheet.css" type="text/css" />
         
         <!--Adding the Navigation bar layout and Background-->
         <style>
