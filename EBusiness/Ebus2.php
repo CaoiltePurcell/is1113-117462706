@@ -82,12 +82,9 @@ session_start()
                 <br>
                 (Only numerical PIN's are valid)
             </label>
-            <br>
-            <br>
             
-            <button class="btn_validate" onClick="validateDetails()">Validate</button>
             <br/>
-            <button class="btn_proceed" type="submit" id="btnPurchase">Proceed</button>
+            <button class="btn_proceed" type="submit" id="btnPurchase" onClick="validateDetails()">Proceed</button>
         
         
         
