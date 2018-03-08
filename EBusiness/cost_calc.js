@@ -46,3 +46,11 @@ function display(parm1, parm2, parm3, parm4){
         
   enableProceed();
 }
+
+function enablebtnProceed(){
+    $('#btnProceed').prop('disabled', false);
+}
+
+function disablebtnProceed() {
+    $('#btnProceed').prop('disabled', true);
+}
