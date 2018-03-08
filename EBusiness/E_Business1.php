@@ -130,7 +130,7 @@
           <br/>
           
           <!--button for adding to shopping cart-->
-          <button href="/EBusiness/E_Business2.php" class="add" type="submit" id="Proceed">Add to Shopping Cart</button>
+          <button href="/EBusiness/Ebus2.php" class="add" type="submit" id="Proceed">Add to Shopping Cart</button>
              
           <br/>
             
