@@ -20,6 +20,7 @@ function calcSub(){
     calcDisVatTotal(argSubTotal);
 }
 
+
 function calcDisVatTotal(parmSubTotal){
   var subTotal = parmSubTotal;
   var discountAmt;
@@ -43,8 +44,9 @@ function display(parm1, parm2, parm3, parm4){
   document.getElementById("vat").value = parm3;
   document.getElementById("total").value = parm4;
         
-  enableProceed();
+  enablebtnProceed();
 }
+
 
 function enablebtnProceed(){
     $('#btnProceed').prop('disabled', false);
@@ -52,6 +54,4 @@ function enablebtnProceed(){
 
 function disablebtnProceed() {
     $('#btnProceed').prop('disabled', true);
-    
-    
 }
