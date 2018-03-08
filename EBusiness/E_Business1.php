@@ -124,13 +124,6 @@
             <!-- button for calculating price breakdown of the selected option -->    
           <button class="calculate_btn btn dark" onClick="calcSub()">Calculate Cost</button>
           
-          <br/><br/>
-            
-            <!--button for adding to shopping cart-->
-          <button href="/EBusiness/Ebus2.php" class="add" type="submit" id="Proceed">Add to Shopping Cart</button>
-          
-          <br/><br/>
-          
           <!-- button for clearing the selected options -->    
           <a class="clear_btn btn dark" role="button" href="E_Business1.php">Clear Choice</a>
              
