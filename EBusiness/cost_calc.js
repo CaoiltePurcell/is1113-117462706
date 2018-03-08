@@ -20,12 +20,6 @@ function calcSub(){
     calcDisVatTotal(argSubTotal);
 }
 
-
-{
-    $('#btnProceed').prop('disabled', false);
-}
-
-
 function calcDisVatTotal(parmSubTotal){
   var subTotal = parmSubTotal;
   var discountAmt;
