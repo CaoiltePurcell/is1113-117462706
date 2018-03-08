@@ -120,16 +120,16 @@
               <input type="text" id="total" name="total" value="0.00" readonly/>
             </label>
       
-            <br/>
-            
           </form>
             
           <!-- button for calculating price breakdown of the selected option -->    
           <button class="calculate_btn btn dark" onClick="calcSub()">Calculate Cost</button>
           
           <br/>
+          <br/>
+          
           <!--button for adding to shopping cart-->
-          <button href="/EBusiness/E_Business2.php" class="add" type="submit" id="Proceed" disabled>Add to Shopping Cart</button>
+          <button href="/EBusiness/E_Business2.php" class="add" type="submit" id="Proceed">Add to Shopping Cart</button>
              
           <br/>
             
