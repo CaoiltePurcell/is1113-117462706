@@ -61,15 +61,17 @@ session_start();
               $total = $_POST["total"];
             ?>
             
-            <p><?php  echo ("Thank you for your purchase " . $name . "." ) ?></p>
+            <p><?php  echo ("Thank you for your purchase " . $name . ".") ?></p>
              
-            <br/><br/>
+            <br/>
              
             <p><?php echo("The email address that you have provided is " . $email . ".") ?></p>
             
+            <br/>
+            
             <p><?php echo("Your total today is $" . $total . ".") ?></p>
             
-            
+            <br/>
             
             <h3 class="ebus3_heading2">Thanks for shopping with us</h3>
 
