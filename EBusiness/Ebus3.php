@@ -37,7 +37,6 @@ session_start();
         </style>
     </head>
     <body>
-        <h4>RECEIPT</h4>
         
         <!--Populating the Navigation bar with functional buttons--> 
         <ul>
@@ -48,10 +47,17 @@ session_start();
         <li><a href="https://dashboard.heroku.com/apps/is1113-117462706">Heroku</a></li>
         <li><a href="https://github.com/CaoiltePurcell/is1113117462706/graphs/commit-activity">GitHub</a></li>
         </ul>
+        
+        <h4>RECEIPT</h4>
+        <br/>
+        <br/>
                 
         <?php
         // Echo session variables that were set on previous page
         echo "Total is " . $_SESSION["total"] . ".";
+        ?>
+        <?php
+        echo "Thank you " . $_SESSION["name"] . ".";
         ?>
     </body>
 </html>
