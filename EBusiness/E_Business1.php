@@ -129,7 +129,7 @@
           </form>
             
           <!-- button for calculating price breakdown of the selected option -->    
-          <button class="calculate_btn btn dark" onClick="calcSub()">Calculate Cost</button>
+          <button class="calculate_btn btn dark" onClick="calcSub()" onClick="{$('#btnProceed').prop('disabled', false);}">Calculate Cost</button>
              
           <br/>
             
