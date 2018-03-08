@@ -50,6 +50,8 @@ session_start();
         
         <h1>Receipt</h1>
         
+        <br/>
+        
         <!-- Creating the receipt -->
         <div class="ebus_content">
             
@@ -63,15 +65,9 @@ session_start();
             
             <p><?php  echo ("Thank you for your purchase " . $name . ".") ?></p>
              
-            <br/>
-             
             <p><?php echo("The email address that you have provided is " . $email . ".") ?></p>
             
-            <br/>
-            
             <p><?php echo("Your total today is $" . $total . ".") ?></p>
-            
-            <br/>
             
             <h3 class="ebus3_heading2">Thanks for shopping with us</h3>
 
