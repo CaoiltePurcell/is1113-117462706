@@ -51,13 +51,17 @@ session_start();
         <h4>RECEIPT</h4>
         <br/>
         <br/>
-                
+        
+        <?php
+        echo "Thank you " . $_SESSION["user_name"] . ".";
+        ?>
+        
+        <br/>
+        
         <?php
         // Echo session variables that were set on previous page
         echo "Total is " . $_SESSION["total"] . ".";
         ?>
-        <?php
-        echo "Thank you " . $_SESSION["name"] . ".";
-        ?>
+        
     </body>
 </html>
