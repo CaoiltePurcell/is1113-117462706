@@ -85,9 +85,12 @@ session_start()
             <br>
             <br>
             <button class="btn_proceed" type="submit" id="btnPurchase">Proceed</button>
+        
+        <button class="btn_validate" onClick="validateDetails()">Validate</button>
+        
         </form>
         <br>
-        <button class="btn_validate" onClick="validateDetails()">Validate</button>
+        
     
         <?php  
         // Set session variables
