@@ -84,9 +84,12 @@ session_start()
             </label>
             <br>
             <br>
+            
+            <button class="btn_validate" onClick="validateDetails()">Validate</button>
+            <br/>
             <button class="btn_proceed" type="submit" id="btnPurchase">Proceed</button>
         
-        <button class="btn_validate" onClick="validateDetails()">Validate</button>
+        
         
         </form>
         <br>
