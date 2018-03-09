@@ -87,12 +87,11 @@ session_start()
                 (Only numerical PIN's are valid)
             </label>
             
-            <br/>
-            <button class="btn_proceed" type="submit" id="btnPurchase" onClick="validateDetails()">Proceed</button>
-            <br/>
         </form>
         
-    
+        <br/>
+            <button class="btn_proceed" type="submit" id="btnPurchase" onClick="validateDetails()">Proceed</button>
+            <br/>
         
     
         <?php  
