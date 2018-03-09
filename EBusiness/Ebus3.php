@@ -62,7 +62,7 @@ session_start();
             
               $name = $_POST["name"];
               $email = $_POST["email"];
-              $total = document.getElementById("total").value;
+              $total = $_POST["total"];
             ?>
             
             <p><?php echo ("Thank you for your purchase " . $name . ".") ?></p>
