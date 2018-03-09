@@ -56,7 +56,7 @@ session_start();
         <h1>Receipt</h1>
         
         <br/>
-        
+        <form>
         <!-- Creating the receipt -->
         <div class="ebus_content">
             
@@ -78,5 +78,6 @@ session_start();
 
          <!--Creating a "Return Home" button-->
         <a href="/Homepage.html" class="btn btn-dark">Return to Homepage</a>
+        </form>
     </body>
 </html>
