@@ -13,21 +13,43 @@ function validateDetails(){
         alert("Please make sure your PIN is accurate");
         }
     else{
-        enablebtnPurchase();
+        validateEmail()
         }
         
 }
 
-    var name;
+    function validateEmail(){
     
-    name = document.getElementbyID("name").value;
+    var email;
     
-    if (name = ""){
-        alert("Please enter your name.");
+    email = document.getElementById("user_email").value;
+    
+    if (email == ""){
+        alert("please enter an email.")
     }
     else{
-        enablebtnPurchase();
+        validatePin();
     }
+}
+
+function validatePin(){
+    
+var pin;
+    
+    pin = document.getElementById("user_pin").value;
+    
+    if (pin == ""){
+        alert("Please enter your PIN.");
+    }
+    else if (pin.length < 4){
+        alert("Your PIN must be 4 digits.");
+    }
+    else{
+        alert("All your details are valid.")
+        enablebtnPurchase()
+    }
+}
+
 
 function enablebtnPurchase(){
      $('#btnPurchase').prop('disabled', false);
