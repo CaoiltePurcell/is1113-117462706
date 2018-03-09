@@ -1,23 +1,5 @@
 /* global $ */
 
-function validateDetails(){
-    
-    var pin;
-    
-    pin = document.getElementById("pin").value;
-    
-    if (pin = ""){
-        alert("Please enter your PIN");
-        }
-    else if (String(pin).length < 4){
-        alert("Please make sure your PIN is accurate");
-        }
-    else{
-        validateEmail()
-        }
-        
-}
-
     function validateEmail(){
     
     var email;
