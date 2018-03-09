@@ -68,7 +68,7 @@ session_start()
             
             <?php $total = $_POST["total"];?>
             
-            <p><?php echo("Your total today is $" . $total . ".") ?></p>
+            <p><?php echo("Your total is $" . $total . ".") ?></p>
             
             <label for="user_name" class="name">
                 Name:

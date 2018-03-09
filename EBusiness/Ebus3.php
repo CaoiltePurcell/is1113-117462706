@@ -58,9 +58,6 @@ session_start();
         <br/>
         <form>
         <!-- Creating the receipt -->
-        <div class="ebus_content">
-            
-            
             <?php  
             
               $name = $_POST["name"];
