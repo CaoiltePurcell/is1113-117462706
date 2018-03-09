@@ -66,6 +66,10 @@ session_start()
         
         <form action="Ebus3.php" method="POST">
             
+            <?php $total = $_POST["total"];?>
+            
+            <p><?php echo("Your total today is $" . $total . ".") ?></p>
+            
             <label for="user_name" class="name">
                 Name:
                 <input type="name" id="name" name="name" placeholder="Enter Your Name">

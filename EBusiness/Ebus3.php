@@ -72,7 +72,7 @@ session_start();
              
             <p><?php echo("The email address that you have provided is " . $email . ".") ?></p>
             
-            <p><?php echo("Your total today is " . $total . ".") ?></p>
+            <p><?php echo("Your total today is $" . $total . ".") ?></p>
             
             <h3 class="ebus3_heading2">Thanks for shopping with us, have a good day!</h3>
 
