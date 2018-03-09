@@ -78,7 +78,7 @@ session_start()
             <br>
             <label for="user_pin" class="pin">
                 PIN:
-                <input type="pin" id="user_pin" name="pin" placeholder="Enter PIN" maxlength="4" pattern="\d{4}">
+                <input type="password" id="user_pin" name="pin" placeholder="Enter PIN" maxlength="4" pattern="\d{4}">
                 <br>
                 (Only numerical PIN's are valid)
             </label>
