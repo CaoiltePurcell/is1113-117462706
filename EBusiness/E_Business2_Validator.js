@@ -1,19 +1,5 @@
 /* global $ */
 
-    function validateEmail(){
-    
-    var email;
-    
-    email = document.getElementById("user_email").value;
-    
-    if (email == ""){
-        alert("please enter an email.")
-    }
-    else{
-        validatePin();
-    }
-}
-
 function validatePin(){
     
 var pin;
@@ -29,6 +15,20 @@ var pin;
     else{
         alert("All your details are valid.")
         enablebtnPurchase()
+    }
+}
+
+    function validateEmail(){
+    
+    var email;
+    
+    email = document.getElementById("user_email").value;
+    
+    if (email == ""){
+        alert("please enter an email.")
+    }
+    else{
+        validatePin();
     }
 }
 
